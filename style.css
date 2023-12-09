@@ -11,12 +11,12 @@ font-family: Arial, Helvetica, sans-serif;
     background-position: center;
 }
 .navbar{
-    width: 100%;
+    width: 85%;
     margin: auto;
     padding: 35px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 .logo{
     width: 250px;
@@ -30,9 +30,11 @@ font-family: Arial, Helvetica, sans-serif;
     position: relative;
 }
 .navbar ul li a{
-    text-decoration: none;
-    color: beige;
-    text-transform: uppercase;
+    text-decoration:none;
+    color: white;
+    text-transform:uppercase;
+
+;
 }
 .navbar ul li::after{
     content: '';
@@ -72,3 +74,31 @@ form button{
     background-color: #ca801f96;
     color: #fff;
 }
+.nav > li {
+    float: left;
+    background: #555;
+    width: 100%;
+  }
+  
+  .nav > li > a, .nav li ul li a {
+    display:block;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    text-align:center;
+  }
+  
+  .nav li ul li a:hover {
+    background: #222;
+  }
+  
+  .nav > li:hover {
+    background: #333;
+  }
+  
+  .nav li ul {
+    display:contents;
+  }
+  
+  .nav > li:hover ul {
+    display:block;
+  }
