@@ -132,3 +132,59 @@ form button {
     background-color: #ca801f96;
     color: #fff;
 }
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	text-decoration: none;
+	list-style: none;
+	line-height: 1em;
+	font-family: segoe ui, helvetica neue, helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+a, li {
+  font-size: 90%;
+  line-height: 25px;
+}
+
+li a, li ul li {
+  font-size: inherit;
+}
+
+.nav {
+  overflow: hidden;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.nav > li {
+  float: left;
+  background: #555;
+  width: 25%;
+}
+
+.nav > li > a, .nav li ul li a {
+  display: block;
+  padding: 10px 20px 10px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.nav li ul li a:hover {
+  background: #222;
+}
+
+.nav > li:hover {
+  background: #333;
+}
+
+.nav li ul {
+  display: none;
+}
+
+.nav > li:hover ul {
+  display: block;
+}
